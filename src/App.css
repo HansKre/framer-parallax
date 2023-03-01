@@ -5,28 +5,18 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover;
 }
 
-section:nth-child(odd) {
-  background-color: darkslategrey;
-}
-
-section:nth-child(1) {
-  background-image: url(https://picsum.photos/1600/1000);
+img {
+  position: absolute;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 section:nth-child(1) h1,
 section:nth-child(3) h1 {
   color: whitesmoke;
-}
-
-section:nth-child(2) {
-  background-image: url(https://picsum.photos/1600/1001);
-}
-
-section:nth-child(3) {
-  background-image: url(https://picsum.photos/1600/1007);
 }
 
 h1 {
@@ -37,6 +27,7 @@ h1 {
 div {
   height: 100%;
   width: 100%;
+  z-index: 2;
 }
 
 section:nth-child(odd) div {
