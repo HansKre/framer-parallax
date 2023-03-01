@@ -1,4 +1,3 @@
-import './App.css';
 import { Section } from './Section';
 
 function App() {
