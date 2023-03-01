@@ -2,5 +2,6 @@
 
 This is a demo of parallax using `framer-motion`.
 
-todo: deploy to Netlify
+Site [demo](https://framer-parallax.netlify.app/).
+
 todo: demo-gif
