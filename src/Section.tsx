@@ -1,4 +1,4 @@
-import { motion, useMotionValueEvent, useScroll } from 'framer-motion';
+import { motion, useScroll } from 'framer-motion';
 import { useRef } from 'react';
 import { getImgUrl } from './getImgUrl';
 import { useParallax } from './useParallax';
